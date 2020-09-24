@@ -1,0 +1,20 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- confirm
+- deny
+responses:
+  utter_greet:
+  - text: Liebe Studentinnen und Studenten, vielen Dank für die Benutzung unserer
+      Job-Empfehlungssystem. Die Bearbeitungszeit der Fragen wird ca. 5-10 Minuten
+      in Anspruch nehmen. Wir bitten euch, die Frage so präzise und ehrlich wie möglich
+      zu beantworten. Bitte bestätige hier [die Teilnahme- und die Datenschutzerklärung](https://drive.google.com/file/d/1cvAtIQwNDQjqs3Mzxa4jWzpuPGUTuOXG/view?usp=sharing).
+      (Ja/Nein)
+  utter_mintstudent:
+  - text: Bist du MINT-Student?(Ja/Nein)
+  utter_goodbye:
+  - text: Es tut mir leid, die Job-Empfehlung ist für dich nicht geeignet.
+  utter_ratgeber:
+  - text: Wie schätzt Du Deine Softskills ein?
